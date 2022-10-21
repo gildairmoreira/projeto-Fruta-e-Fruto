@@ -1,0 +1,21 @@
+@import url(pessoa/pessoa-funcao.css);
+@import url(pessoa/pessoa-imagem.css);
+@import url(pessoa/pessoa-nome.css);
+@import url(pessoa/pessoa.css);
+
+.pessoas{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+@media screen and (min-width: 0) {
+    .pessoas{
+        flex-direction: column;
+    }   
+}
+@media screen and (min-width: 917px) {
+    .pessoas{
+        flex-direction: row;
+    }
+}

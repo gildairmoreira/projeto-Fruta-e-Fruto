@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+ul.menu__lista {
+    display: flex;
+}

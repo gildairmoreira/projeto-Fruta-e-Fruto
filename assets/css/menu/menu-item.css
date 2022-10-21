@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+li.menu__item {
+    list-style: none;
+}
+
+li.menu__item:last-child a.menu__link{        /* ultimo filho */
+    margin-right: 0;
+}
